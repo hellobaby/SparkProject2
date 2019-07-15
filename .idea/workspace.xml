@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1927b44b-cf5d-483f-a7df-446dcb365bbd" name="Default Changelist" comment="" />
+    <list default="true" id="1927b44b-cf5d-483f-a7df-446dcb365bbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/alex/constants/Constants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserBasic.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserVisit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/alex/utils/ConfigManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/alex/utils/JDBCUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/hive_job.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/sqoop_job.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/alex/spark/MySparkSql.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/alex/spark/MySparkSql.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +26,97 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dm.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hdfs-site.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/user_basic.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/constants/Constants.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserBasic.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding>
+                <element signature="e#24#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/utils/ConfigManager.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserVisit.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/MySparkSql.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +125,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dt</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/Test1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/MyJDBC.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/Consumers.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/KafkaStreamingByReceiver.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/MyProducer.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/MyConsumer.java" />
@@ -43,6 +152,20 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/ConnectionUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/MyUpdateStateByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/MyMapWithState.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/MySparkSql.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/contants/Contants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/utils/JDBCUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/constants/Contants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/constants/Constants.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/hive-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/dm_user_basic.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/user_basic.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserBasic.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserVisit.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alex/utils/ConfigManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/dm.properties" />
       </list>
     </option>
   </component>
@@ -60,13 +183,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="420" />
-    <option name="y" value="59" />
-    <option name="width" value="1493" />
-    <option name="height" value="992" />
+    <option name="x" value="326" />
+    <option name="y" value="103" />
+    <option name="width" value="1471" />
+    <option name="height" value="944" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -86,7 +213,20 @@
               <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
@@ -101,6 +241,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+              <item name="Constants$" type="ce8f04f3:TypeDefinitionNode" />
+            </path>
+            <path>
+              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -109,8 +277,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="ConnectionUtil$" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="DmUserBasic$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
@@ -118,8 +287,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaStreamingByReceiver$" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="DmUserVisit$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
@@ -127,8 +297,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="MyConsumer" type="1a9f42e2:ClassTreeNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
@@ -136,215 +306,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="MyMapWithState$" type="ce8f04f3:TypeDefinitionNode" />
+              <item name="alex" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="ConfigManager$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
               <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="MyProducer" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="MyUpdateStateByKey$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SparkProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCount$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka_2.11:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka_2.11:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka_2.11-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka_2.11:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka_2.11-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka_2.11:0.8.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka_2.11-0.8.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaStream" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming-kafka-0-8_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming-kafka-0-8_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming-kafka-0-8_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="KafkaUtils$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="StreamingContext.class" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="StreamingContext.class" type="6117b065:FileNode" />
-              <item name="StreamingContext" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="dstream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="dstream" type="462c0819:PsiDirectoryNode" />
-              <item name="PairDStreamFunctions" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-streaming_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="dstream" type="462c0819:PsiDirectoryNode" />
-              <item name="ReceiverInputDStream" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.scala-lang:scala-library:2.11.8" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.scala-lang:scala-library:2.11.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.11.8.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.scala-lang:scala-library:2.11.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.11.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.scala-lang:scala-library:2.11.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.11.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="Specializable.class" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.8" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.11.8-sources.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.11.8-sources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SparkProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.11.8-sources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="package$" type="34d97a35:PackageObjectNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,14 +335,27 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jmeter.home" value="" />
     <property name="jmeter.override" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.35063437" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProjects\SparkProject2\src\sql" />
+      <recent name="F:\ideaProjects\SparkProject2\src\main\resources" />
+      <recent name="F:\ideaProjects\SparkProject2\src\doc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alex.spark" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ideaProjects\SparkProject2\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -379,10 +369,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyUpdateStateByKey">
-    <configuration name="KafkaStreamingByReceiver" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.alex.spark.KafkaStreamingByReceiver" />
+  <component name="RunManager" selected="Application.DmUserVisit">
+    <configuration name="DmUserBasic" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.alex.spark.DmUserBasic" />
       <module name="SparkProject2" />
+      <option name="PROGRAM_PARAMETERS" value="qfbap_dm.user_basic 2019-07-12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alex.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DmUserVisit" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.alex.spark.DmUserVisit" />
+      <module name="SparkProject2" />
+      <option name="PROGRAM_PARAMETERS" value="qfbap_dm.dm_user_visit 2018-12-25" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.alex.spark.*" />
@@ -445,13 +450,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.DmUserBasic" />
+      <item itemvalue="Application.MyConsumer" />
+      <item itemvalue="Application.MyProducer" />
+      <item itemvalue="Application.MyUpdateStateByKey" />
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.DmUserVisit" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DmUserVisit" />
         <item itemvalue="Application.MyUpdateStateByKey" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.MyConsumer" />
         <item itemvalue="Application.MyProducer" />
-        <item itemvalue="Application.KafkaStreamingByReceiver" />
       </list>
     </recent_temporary>
   </component>
@@ -472,17 +485,93 @@
       <workItem from="1562417376641" duration="12133000" />
       <workItem from="1562495197491" duration="4714000" />
       <workItem from="1562559774136" duration="599000" />
-      <workItem from="1562757145261" duration="912000" />
+      <workItem from="1562757145261" duration="2036000" />
+      <workItem from="1562814810175" duration="8560000" />
+      <workItem from="1562903538908" duration="1917000" />
+      <workItem from="1562917171283" duration="10631000" />
+      <workItem from="1563062199618" duration="594000" />
+      <workItem from="1563161182243" duration="9891000" />
     </task>
+    <task id="LOCAL-00001" summary="spark project self learning demo">
+      <created>1562759684097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562759684097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hive on spark demo">
+      <created>1562760380110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562760380110</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hadoop配置文件">
+      <created>1562921448391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562921448391</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hadoop配置文件">
+      <created>1563188130818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188130819</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hadoop配置文件">
+      <created>1563188150420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188150420</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hadoop配置文件">
+      <created>1563188172306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188172306</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hadoop配置文件">
+      <created>1563188184718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188184718</updated>
+    </task>
+    <task id="LOCAL-00008" summary="hadoop配置文件">
+      <created>1563188340576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188340576</updated>
+    </task>
+    <task id="LOCAL-00009" summary="hadoop配置文件">
+      <created>1563188352822</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188352822</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hadoop配置文件">
+      <created>1563188368753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563188368753</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74563000" />
+    <option name="totallyTimeSpent" value="107280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="59" width="1493" height="992" extended-state="0" />
+    <frame x="326" y="103" width="1471" height="944" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30807018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29935852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,14 +580,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7415541" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38138926" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27260813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32896462" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32747805" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
@@ -520,9 +609,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spark project self learning demo" />
+    <MESSAGE value="hive on spark demo" />
+    <MESSAGE value="hadoop配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="hadoop配置文件" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="prop" />
+        <watch expression="finalSql" />
+        <watch expression="df" />
+        <watch expression="args" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/alex/spark/AppTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/alex/spark/MySpec.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/App.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/package.scala" />
     <entry file="jar://E:/.m2/repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/package.class">
@@ -621,16 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/MyConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +830,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/ConnectionUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/MyMapWithState.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="575">
           <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="e#24#50#0" expanded="true" />
@@ -747,20 +857,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/ConnectionUtil.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/MyConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="391">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
-            <element signature="e#24#67#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
-          <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        <state relative-caret-position="460">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/SaveMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/utils/JDBCUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserBasic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/utils/ConfigManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/DmUserVisit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/spark/MySparkSql.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hdfs-site.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user_basic.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alex/constants/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -822,6 +1015,7 @@
             <option name="proportions">
               <list>
                 <option value="0.35063437" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
